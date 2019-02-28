@@ -4,8 +4,11 @@
 	
 	QUESTIONS:
 	1. forget to verify that is i a prime? or needn't? (line:22)
-		// Brute force attack
+		A:	Brute force attack
 	2. optimal condition to end loop timely.(line:22)
+	3. what are the best case and the worst case?
+		A:	b: n=2^k.			T(n)= k =	O(logn)
+			w: n is a prime.	T(n)=n-1=	O(n)
  */
 #include <iostream>
 #include <cstdio>
